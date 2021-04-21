@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkerMode Theme</title>
+    <style>
+        :root{
+            --background-primary: #111113;
+           --background-secondary: #1c1d21;
+           --background-secondary-alt: #1c1d21;
+           --background-tertiary: #1e2022;
+           --background-accent: #ffffff3f;
+           --channeltextarea-background: #151618; 
+        }
+        body{
+            background-color: var(--background-primary);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            font-style: italic;
+            text-shadow: 0 0 3px rgb(255, 255, 255);
+        }
+        .images{
+            display: grid;
+            /* width: 50vw; */
+            width: clamp(400px, 70vw, 2000px);
+            grid-template-columns: 1fr 1fr;
+            background-color: var(--background-secondary);
+            gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .images img{
+            width: 100%;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        
+        .button{
+            font-size: 2em;
+            color: white;
+            text-decoration: none;
+            background: #3b3d46;
+            padding: 15px;
+            border-radius: 2px;
+            font-weight: 500;
+            margin: 20px;
+            font-weight: bold;
+        }
+        .button:hover{
+            text-decoration: none;
+            box-shadow: 0 #3b3d46;
+        }
+        a{
+            color: rgb(56, 119, 255);
+            text-decoration: none;
+        }
+        a:hover{text-decoration: underline;}
 
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Discord DarkerMode by Szedann</h1>
+        <section class="images">
+            <img src="https://github.com/Szedann/DarkerMode/raw/main/images/darker_chat.png" alt="DarkerMode">
+            <img src="https://github.com/Szedann/DarkerMode/raw/main/images/darker_settings.png" alt="DarkerMode">
+        </section>
+        <a class="button" href="https://raw.githubusercontent.com/Szedann/DarkerMode/main/css/darker.theme.css" download="darker.theme">Download</a>
+        <a href="">GitHub page</a>
+    </main>
+</body>
+</html>
