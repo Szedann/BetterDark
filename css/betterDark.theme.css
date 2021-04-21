@@ -1,0 +1,210 @@
+/**
+ * @name Darker mode
+ * @author Szedann
+ * @description Darker mode for discord
+ * @version 0.9.2
+ */
+
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+.theme-dark{
+    --background-primary: #111113;
+    --background-secondary: #1c1d21;
+    --background-secondary-alt: #1c1d21;
+    --background-tertiary: #1e2022;
+    --background-accent: #ffffff;
+    --channeltextarea-background: #151618; 
+    --background-accent: #000000af
+}
+
+.modal-2VIBV8, .root-1gCeng, .autocompleteInner-zh20B_, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .modal-3O0aXp, .horizontal-1ae9ci{
+    background-color: var(--background-secondary) !important;
+}
+.footer-2gL1pp, .peopleList-3c4jOR, .peopleColumn-29fq28, .theme-dark .perksModal-fSYqOq, .theme-dark .pageWrapper-1PgVDX{
+    background-color: var(--background-primary) !important;
+}
+
+.theme-dark .container-3ayLPN {
+    background: var(--background-tertiary);
+}
+
+.actionButtons-14eAc_ button{
+    background: #3b3d46 !important;
+}
+
+.roleColor-rz2vM0{
+    color: #36393f;
+}
+
+.theme-dark .option-96V44q:after{
+    background: transparent !important;
+}
+.headerPlaying-j0WQBV {
+    background: #667bc5;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci{
+    background: transparent !important;
+}
+
+.repliedMessage-VokQwo:before{
+    --background-accent: rgba(255, 255, 255, 0.3);
+}
+
+    /* message actions */
+.wrapper-2aW0bm{
+    box-shadow: 0 0 3px black;
+}
+
+    /* topbar */
+.typeWindows-1za-n7{
+    background: black;
+    margin-top: 0;
+    padding-top: 4px;
+}
+
+ /* jump to present button */
+.jumpToPresentBar-G1R9s6, .unreadBar-3t3sYc{
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+}
+
+/* options sections separators */
+
+.separator-gCa7yv{
+    opacity: 0;
+}
+
+.header-2RyJ0Y{
+    margin: 0 auto;
+    border-bottom: 1px solid var(--interactive-normal);
+    margin-bottom: 4px;
+}
+
+    /* BD changelog button styling */
+
+.bd-sidebar-header{
+    display: flex;
+    flex-direction: column;
+}
+.bd-changelog-button{
+    padding: 6px 10px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    height: 32px !important;
+    justify-content: center;
+    color: var(--interactive-normal);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bd-changelog-button:hover{
+    background-color: var(--background-modifier-hover);
+}
+
+.bd-changelog-button > svg{
+    transform: scale(1.4) translateY(2px);
+    margin-right: 12px;
+    width: 30px;
+    display: inline-block;
+    margin-left: 6px;
+}
+.bd-changelog-button:after{
+    content: "Change Log";
+}
+
+
+ /* options icons */
+.item-PXvHYJ::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    margin-right: 5px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.item-PXvHYJ[aria-controls="My Account-tab"]::before{content: "\f007";}
+.item-PXvHYJ[aria-controls="Privacy & Safety-tab"]::before{content: "\f3ed";}
+.item-PXvHYJ[aria-controls="Authorized Apps-tab"]::before{content: "\f2b5";}
+.item-PXvHYJ[aria-controls="Connections-tab"]::before{content: "\f0c1";}
+
+.item-PXvHYJ[aria-controls="Discord Nitro-tab"]::before{content: "\f0c1";}
+.item-PXvHYJ[aria-controls="Nitro Server Boost-tab"]::before{content: "\f135";}
+.item-PXvHYJ[aria-controls="Library Inventory-tab"]::before{content: "\f06b";}
+.item-PXvHYJ[aria-controls="Billing-tab"]::before{content: "\f53b";}
+
+.item-PXvHYJ[aria-controls="Appearance-tab"]::before{content: "\f553";}
+.item-PXvHYJ[aria-controls="Accessibility-tab"]::before{content: "\f193";}
+.item-PXvHYJ[aria-controls="Voice & Video-tab"]::before{content: "\f590";}
+.item-PXvHYJ[aria-controls="Text & Images-tab"]::before{content: "\f036";}
+.item-PXvHYJ[aria-controls="Notifications-tab"]::before{content: "\f0f3";}
+.item-PXvHYJ[aria-controls="Keybinds-tab"]::before{content: "\f11c";}
+.item-PXvHYJ[aria-controls="Language-tab"]::before{content: "\f0ac";}
+.item-PXvHYJ[aria-controls="Windows-tab"]::before{content: "\f108";}
+.item-PXvHYJ[aria-controls="Streamer Mode-tab"]::before{content: "\f03d";}
+.item-PXvHYJ[aria-controls="Advanced-tab"]::before{content: "\f7d9";}
+
+.item-PXvHYJ[aria-controls="Game Activity-tab"]::before{content: "\f11b";}
+.item-PXvHYJ[aria-controls="Overlay-tab"]::before{content: "\f039";}
+
+.item-PXvHYJ[aria-controls="Settings-tab"]::before{content: "\f085";}
+.item-PXvHYJ[aria-controls="Emotes-tab"]::before{content: "\f5b8";}
+.item-PXvHYJ[aria-controls="customcss-tab"]::before{content: "\f15b";}
+.item-PXvHYJ[aria-controls="plugins-tab"]::before{content: "\f1e6";}
+.item-PXvHYJ[aria-controls="themes-tab"]::before{content: "\f696";}
+
+.item-PXvHYJ[aria-controls="changelog-tab"]::before{content: "\f1da";}
+.item-PXvHYJ[aria-controls="Hypesquad Online-tab"]::before{content: "\f0c1";}
+
+.item-PXvHYJ[aria-controls="logout-tab"]::before{content: "\f2f5";}
+
+ /* Server settings icons */
+
+.item-PXvHYJ[aria-controls="OVERVIEW-tab"]::before{content: "\f03a";}
+.item-PXvHYJ[aria-controls="ROLES-tab"]::before{content: "\f0c0";}
+.item-PXvHYJ[aria-controls="EMOJI-tab"]::before{content: "\f5b8";}
+.item-PXvHYJ[aria-controls="MODERATION-tab"]::before{content: "\f505";}
+.item-PXvHYJ[aria-controls="AUDIT_LOG-tab"]::before{content: "\f70e";}
+.item-PXvHYJ[aria-controls="INTEGRATIONS-tab"]::before{content: "\f0c1";}
+.item-PXvHYJ[aria-controls="WIDGET-tab"]::before{content: "\f2bb";}
+.item-PXvHYJ[aria-controls="GUILD_TEMPLATES-tab"]::before{content: "\f2d2";}
+
+.item-PXvHYJ[aria-controls="COMMUNITY-tab"]::before{content: "\f03a";}
+.item-PXvHYJ[aria-controls="ANALYTICS-tab"]::before{content: "\f200";}
+.item-PXvHYJ[aria-controls="PARTNER-tab"]::before{content: "\f2b5";}
+.item-PXvHYJ[aria-controls="DISCOVERY-tab"]::before{content: "\f6fc";}
+.item-PXvHYJ[aria-controls="MEMBER_VERIFICATION-tab"]::before{content: "\f4fc";}
+.item-PXvHYJ[aria-controls="COMMUNITY_WELCOME-tab"]::before{content: "\f52b";}
+
+.item-PXvHYJ[aria-controls="GUILD_PREMIUM-tab"]::before{content: "\f135";}
+
+.item-PXvHYJ[aria-controls="MEMBERS-tab"]::before{content: "\f0c0";}
+.item-PXvHYJ[aria-controls="INSTANT_INVITES-tab"]::before{content: "\f658";}
+.item-PXvHYJ[aria-controls="BANS-tab"]::before{content: "\f05e";}
+
+.item-PXvHYJ[aria-controls="DELETE-tab"]::before{content: "\f2ed";}
+
+.mentioned-xhSam7{
+    background-color: rgba(255, 174, 0, 0.01) !important;
+    font-weight: 700 !important;
+}
+.unread-2lAfLh{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.mention{
+    font-weight: 600;
+}
+
+.container-1CE3eW{
+    background-color: #1c1d21 !important;
+} 
+.container-1CE3eW .footer-1NnaNd{
+    background-color: #111113 !important;
+    border-top: 0;
+}
+
