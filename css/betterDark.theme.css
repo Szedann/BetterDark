@@ -70,7 +70,7 @@
 
 /* options sections separators */
 
-.separator-gCa7yv{
+/* .separator-gCa7yv{
     opacity: 0;
 }
 
@@ -78,9 +78,9 @@
     margin: 0 auto;
     border-bottom: 1px solid var(--interactive-normal);
     margin-bottom: 4px;
-}
+} */
 
-    /* BD changelog button styling */
+/* BD changelog button styling */
 
 .bd-sidebar-header{
     display: flex;
@@ -164,6 +164,7 @@
 .item-PXvHYJ[aria-controls="OVERVIEW-tab"]::before{content: "\f03a";}
 .item-PXvHYJ[aria-controls="ROLES-tab"]::before{content: "\f0c0";}
 .item-PXvHYJ[aria-controls="EMOJI-tab"]::before{content: "\f5b8";}
+.item-PXvHYJ[aria-controls="PERMISSIONS-tab"]::before{content: "\f505";}
 .item-PXvHYJ[aria-controls="MODERATION-tab"]::before{content: "\f505";}
 .item-PXvHYJ[aria-controls="AUDIT_LOG-tab"]::before{content: "\f70e";}
 .item-PXvHYJ[aria-controls="INTEGRATIONS-tab"]::before{content: "\f0c1";}
@@ -208,3 +209,17 @@
     border-top: 0;
 }
 
+.roleColor-rz2vM0 {
+    color: #c6c6c6 ;
+}
+
+.colorHeaderPrimary-26Jzh-{
+    color: white;
+
+}
+.colorHeaderSecondary-3Sp3Ft, .colorStandard-2KCXvj{
+    color: lightgray;
+}
+.container-UC8Ug1{
+    background: #393b42;
+}
