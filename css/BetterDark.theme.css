@@ -1,0 +1,148 @@
+/**
+ * @name Darker mode
+ * @author Szedann
+ * @description Darker mode for discord
+ * @version 0.9.2
+ */
+
+
+.theme-dark{
+    --background-primary: #111113;
+    --background-secondary: #1c1d21;
+    --background-secondary-alt: #1c1d21;
+    --background-tertiary: #1e2022;
+    --background-accent: #ffffff;
+    --channeltextarea-background: #151618; 
+    --background-accent: #000000af
+}
+
+.modal-2VIBV8, .root-1gCeng, .autocompleteInner-zh20B_, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .modal-3O0aXp, .horizontal-1ae9ci{
+    background-color: var(--background-secondary) !important;
+}
+.footer-2gL1pp, .peopleList-3c4jOR, .peopleColumn-29fq28, .theme-dark .perksModal-fSYqOq, .theme-dark .pageWrapper-1PgVDX{
+    background-color: var(--background-primary) !important;
+}
+
+.theme-dark .container-3ayLPN {
+    background: var(--background-tertiary);
+}
+
+.actionButtons-14eAc_ button{
+    background: #3b3d46 !important;
+}
+
+.roleColor-rz2vM0{
+    color: #36393f;
+}
+
+.theme-dark .option-96V44q:after{
+    background: transparent !important;
+}
+.headerPlaying-j0WQBV {
+    background: #667bc5;
+}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci{
+    background: transparent !important;
+}
+
+.repliedMessage-VokQwo:before{
+    --background-accent: rgba(255, 255, 255, 0.3);
+}
+
+    /* message actions */
+.wrapper-2aW0bm{
+    box-shadow: 0 0 3px black;
+}
+
+    /* topbar */
+.typeWindows-1za-n7{
+    background: black;
+    margin-top: 0;
+    padding-top: 4px;
+}
+
+ /* jump to present button */
+.jumpToPresentBar-G1R9s6, .unreadBar-3t3sYc{
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+}
+
+/* options sections separators */
+
+/* .separator-gCa7yv{
+    opacity: 0;
+}
+
+.header-2RyJ0Y{
+    margin: 0 auto;
+    border-bottom: 1px solid var(--interactive-normal);
+    margin-bottom: 4px;
+} */
+
+/* BD changelog button styling */
+
+.bd-sidebar-header{
+    display: flex;
+    flex-direction: column;
+}
+.bd-changelog-button{
+    padding: 6px 10px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    height: 32px !important;
+    justify-content: center;
+    color: var(--interactive-normal);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bd-changelog-button:hover{
+    background-color: var(--background-modifier-hover);
+}
+
+.bd-changelog-button > svg{
+    display: none;
+}
+.bd-changelog-button:after{
+    content: "Change Log";
+}
+
+.mentioned-xhSam7{
+    background-color: rgba(255, 174, 0, 0.01) !important;
+    font-weight: 700 !important;
+}
+.unread-2lAfLh{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.mention{
+    font-weight: 600;
+}
+
+.container-1CE3eW{
+    background-color: #1c1d21 !important;
+} 
+.container-1CE3eW .footer-1NnaNd{
+    background-color: #111113 !important;
+    border-top: 0;
+}
+
+.roleColor-rz2vM0 {
+    color: #c6c6c6 ;
+}
+
+.colorHeaderPrimary-26Jzh-{
+    color: white;
+
+}
+.colorHeaderSecondary-3Sp3Ft, .colorStandard-2KCXvj{
+    color: lightgray;
+}
+.container-UC8Ug1{
+    background: #393b42;
+}
